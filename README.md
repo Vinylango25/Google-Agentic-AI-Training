@@ -245,3 +245,77 @@ This step-by-step execution showcases **state preservation, human oversight, and
 
 By the end of Day 2, it became clear that agentic AI is not just about reasoning in a single interaction — it is about orchestrating **sophisticated, resumable workflows that interact with humans and external systems**, transforming agents from conversational models into **enterprise operational engines**.
 
+# Day 3 – Memory Management in ADK: Enabling Persistent Intelligence
+
+## Introduction: From Actions to Memory
+
+After exploring agent orchestration and long-running workflows on Days 1 and 2, Day 3 focused on a critical component of truly intelligent systems: **memory**. Memory allows agents to retain knowledge across sessions, learn from interactions, and personalize experiences. Without memory, even the most capable agents are stateless — every interaction starts from scratch, losing all context and prior learning.  
+
+The central question of the day was: **how can we design agents that remember, recall, and act intelligently over time?** This exploration brought us into the world of **persistent, context-aware intelligence**.
+
+---
+
+## Key Problem: Stateless Agents Limit Intelligence
+
+Even advanced agents face limitations without memory:
+
+- **No personalization:** Agents forget user preferences, instructions, or past interactions.  
+- **Short-term context only:** Every session begins anew, preventing continuity across conversations.  
+- **Inefficient workflows:** Agents repeat tasks unnecessarily, lacking awareness of prior decisions.  
+- **Limited multi-agent collaboration:** Without shared memory, agents cannot coordinate effectively over time.  
+
+Memory, therefore, became the focus: **how can agents retain, retrieve, and apply knowledge to improve both autonomy and collaboration?**
+
+---
+
+## Session vs Memory: Understanding Scope
+
+ADK differentiates between **session context** and **long-term memory**:
+
+- **Session**  
+  Short-term, temporary context limited to a single conversation. Useful for chaining tasks within a single workflow but disappears when the session ends.
+
+- **Memory**  
+  Persistent, long-term storage that survives across sessions. Memory can hold facts, preferences, past decisions, and conversation summaries. Crucially, it allows **semantic recall**, meaning agents retrieve information based on meaning, not just keywords.
+
+For example, a memory-enabled agent can remember a user’s preferred communication style, favorite topics, or previous workflow choices, enabling highly personalized interactions.
+
+---
+
+## Memory in Practice
+
+Memory management in ADK involves **storing relevant experiences, retrieving them when needed, and consolidating knowledge** for efficiency. Agents can proactively consult memory to inform decisions, or reactively recall past interactions when prompted.  
+
+The day emphasized **consolidation** as a key principle. Full-session storage can quickly become bloated and inefficient. Consolidation distills the essence of interactions — extracting only critical, actionable facts — while discarding redundant or transient information.  
+
+**Example:** Remembering a user’s favorite color is stored as a simple fact rather than retaining the entire conversation where it was mentioned.
+
+---
+
+## Key Highlights
+
+- Memory enables **cross-session personalization**, allowing agents to adapt over time.  
+- Supports **semantic recall**, letting agents act based on meaning rather than literal keywords.  
+- Facilitates both **proactive and reactive retrieval**, improving context-aware responses.  
+- Consolidation ensures memory is **efficient and actionable**, avoiding unnecessary bloat.  
+- Integrates with **multi-agent systems and long-running workflows**, making collaboration smarter and more coherent.
+
+---
+
+## Key Takeaways
+
+- **Persistent memory is essential** for building adaptive, intelligent agents.  
+- **Session context vs. memory** provides a structured design pattern for agent development.  
+- **Automated consolidation** preserves critical information while maintaining efficiency.  
+- Semantic memory retrieval enables agents to respond intelligently to complex queries and evolving user needs.  
+- Memory integration enhances **personalization, collaboration, and long-term learning**, paving the way for agents that truly evolve over time.
+
+---
+
+## Conclusion: Towards Memory-Enabled Intelligence
+
+Day 3 reinforced a fundamental truth: *intelligence without memory is limited*. While Day 1 and Day 2 focused on reasoning and workflow execution, memory allows agents to retain lessons, personalize interactions, and improve over time.  
+
+With memory, agents evolve from stateless responders into **persistent, context-aware collaborators**, capable of learning from experience and delivering increasingly sophisticated outcomes. This represents a significant step toward **autonomous, adaptive, and intelligent systems** capable of evolving alongside users and workflows.
+
+
