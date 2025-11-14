@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./AI.png" alt="Google 5-Day Intensive Course Thumbnail" width="600"/>
 </p>
+
 # **Day 1 – From Prompts to Agents: Building Intelligent Systems with Google’s Agent Development Kit (ADK)**  
 
 ## **Introduction: The New Frontier of Agentic AI**  
