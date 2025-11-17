@@ -138,7 +138,7 @@ Day 1 laid the groundwork: from here, the journey continues toward building *aut
 
 While Day 1 introduced the foundations of agentic AI and multi-agent orchestration, Day 2 tackled a critical problem: **how to enable agents to perform long-running, stateful workflows that require human oversight, external tool integration, and dynamic decision-making**. Modern AI agents can reason and act autonomously, but real-world processes often involve delays, approvals, or complex operations that cannot be completed in a single synchronous interaction.  
 
-This day focused on **extending the ADK framework** to handle these scenarios using **resumable workflows, human-in-the-loop approvals, and external MCP (Managed Connector Platform) services**. The goal was to bridge the gap between autonomous AI reasoning and operational realities in enterprise workflows.
+This day focused on **extending the ADK framework** to handle these scenarios using **resumable workflows, human-in-the-loop approvals, and external MCP (Model Context Protocols)**. The goal was to bridge the gap between autonomous AI reasoning and operational realities in enterprise workflows.
 
 ---
 
